@@ -16,22 +16,26 @@ Instructions about the SIMPLE CAN Bus Voltage Dataset for our paper:
 
 ## Download the dataset
 
+<!---
 The dataset is hosted on [Academic
 Torrents](https://academictorrents.com/details/6144686c209ed81dd9622eaaac656e3ceb78f4df).
 Or simply use the Magnet link:
 ```
-magnet:?xt=urn:btih:6144686c209ed81dd9622eaaac656e3ceb78f4df
+magnet:?xt=urn:btih:6144686c209ed81dd9622eaaac656e3ceb78f4df&tr=http%3A%2F%2Facademictorrents.com%2Fannounce.php&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969
 ```
+-->
+
+The in-vehicle data is available at [here](http://www2.engr.arizona.edu/~yman/simple/dataset/in-vehicle.tar.gz).
 
 Extract the data:
 ```
-tar xvf data.tar.gz
+$ tar xvf in-vehicle.tar.gz
 ```
 
 There will be 11 rounds of data, collected from two vehicles. Each round of
 data are placed in a directory named `vehicle_datetime`.  For example,
-`sentra_02181733` contains the data collected from the Nissan Sentra 2016 at
-5:33 PM on Feb. 18-th.
+`can_bus_voltage/sentra_02181733/` contains the data collected from the Nissan
+Sentra 2016 at 5:33 PM on Feb. 18-th.
 
 In each round of data, there are `.mat` files. One `.mat` file stores a
 record of CAN Bus voltage samples. A record may consist of multiple CAN frames.
