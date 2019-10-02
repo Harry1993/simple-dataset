@@ -1,6 +1,7 @@
 # SIMPLE CAN Bus Voltage Dataset
 
-Instructions about the SIMPLE CAN Bus Voltage Dataset for our paper:
+Instructions about the SIMPLE CAN Bus Voltage Dataset for our
+[paper](http://u.arizona.edu/~yman/papers/simple_acsac19.pdf):
 
 ```
 @inproceedings{foruhandeh19_simple,
@@ -25,7 +26,8 @@ magnet:?xt=urn:btih:6144686c209ed81dd9622eaaac656e3ceb78f4df&tr=http%3A%2F%2Faca
 ```
 -->
 
-The in-vehicle data is available at [here](http://www2.engr.arizona.edu/~yman/simple/dataset/in-vehicle.tar.gz).
+The in-vehicle data is available
+[here](http://www2.engr.arizona.edu/~yman/simple/dataset/in-vehicle.tar.gz).
 
 Extract the data:
 ```
@@ -54,7 +56,7 @@ In MATLAB, call
 ```
 
 In this example, there will be four CAN frames being extracted and stored in
-four separated files (`0.mat`, `1.mat`, etc.) under the current directory
+four separate files (`0.mat`, `1.mat`, etc.) under the current directory
 `/path/to/simple_dataset/`.
 
 In each frame `.mat` file, there are 6 properties:
